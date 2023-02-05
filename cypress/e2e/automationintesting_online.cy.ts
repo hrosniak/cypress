@@ -1,9 +1,9 @@
-describe('first_scenario', () => {
+describe('automationintesting_online', () => {
     before(() => {
         cy.visit('/');
     });
 
-    it('test',() => {
+    it('check if cypress work well',() => {
         console.log('test');
     });
 });
