@@ -8,5 +8,7 @@ module.exports = defineConfig({
     baseUrl: 'http://automationintesting.online/'
   },
   viewportWidth: 1920,
-  viewportHeight: 1080
+  viewportHeight: 1080,
+  watchForFileChanges: false,
+  defaultCommandTimeout: 4000,
 });
